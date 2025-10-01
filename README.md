@@ -1,16 +1,51 @@
-# React + Vite
+# 🇱🇰 Tour Guide Marketplace  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A digital marketplace that connects tourists with local tour guides in Sri Lanka.  
+Guides can create portfolios with bios, specialties, pricing, and availability, while travelers can browse, chat, book, and review — bringing flexibility and trust to trip planning.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features  
+- Guide profiles (bio, certifications, pricing, availability)  
+- Booking system (hourly, daily, or full-trip)  
+- Ratings & reviews to build trust  
+- Availability calendar for guides  
+- Messaging between tourists & guides  
+- Secure payment gateway (planned)  
+- Trip planner for multi-stop itineraries  
+- Mobile-friendly responsive design  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack  
+### Frontend  
+- [React.js](https://react.dev/) – Component-based UI development  
+- [Vite](https://vitejs.dev/) – Lightning-fast build tool  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling  
 
-## Expanding the ESLint configuration
+### Backend (In Progress)  
+- [MySQL](https://www.mysql.com/) – Database for guides, bookings, and reviews  
+- Planned Node.js/Express API integration  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Getting Started  
+
+### Prerequisites  
+Make sure you have installed:  
+- [Node.js](https://nodejs.org/) (v16 or later)  
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)  
+
+### Installation  
+```bash
+# Clone the repository
+git clone https://github.com/your-username/tour-guide-marketplace.git
+
+# Navigate to the project
+cd tour-guide-marketplace
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
